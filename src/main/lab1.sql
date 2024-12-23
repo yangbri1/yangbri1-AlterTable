@@ -1,0 +1,15 @@
+-- We can change an existing table using the ALTER command. This allows us to modify
+--  the structure of our database without the need to drop and re-create tables, which
+--  would result in the loss of data.
+-- Adding a column to a 'song' table:
+--      ALTER TABLE Song ADD COLUMN runtime INTEGER;
+-- Removing a column:
+--      ALTER TABLE Song DROP COLUMN runtime INTEGER;
+-- Likewise, constraints can also be added or removed from a table.
+--      person table
+--      |    id    |     firstname     |
+--      |----------|-------------------|
+--      |1         |'Kevin'            |
+--      |2         |'Brian'            |
+--      |3         |'Charles'          |
+-- TODO: Use the ALTER keyword to add a "lastname" column to the above "Person" table, of type varchar(255).
